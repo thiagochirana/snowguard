@@ -1,0 +1,10 @@
+name: snowguard
+version: '${version}'
+main: br.com.devcurumin.snowguard.Snowguard
+api-version: '1.20.6'
+
+commands:
+  hello:
+    description: "receive a hello"
+  boss:
+    description: "motivational message"
