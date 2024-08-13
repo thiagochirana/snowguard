@@ -24,13 +24,13 @@ public final class Snowguard extends JavaPlugin {
         Api api = new Api(this);
         api.startHttpServer();
 
-        getServer().getPluginManager().registerEvents(new Events(databaseManager, this), this);
+        getServer().getPluginManager().registerEvents(new Events(this), this);
     }
 
     @Override
     public void onDisable() {
         this.getLogger().info("Plugin disabled!");
-        // databaseManager.close();
+        // databaseManager.closeConnection();
     }
 
     @Override
