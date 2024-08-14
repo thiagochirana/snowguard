@@ -2,8 +2,8 @@
 # Edit at https://www.toptal.com/developers/gitignore?templates=gradle
 
 ### Gradle ###
-.gradle
-**/build/
+.gradle/*
+build/
 !src/**/build/
 
 # Ignore Gradle GUI config
@@ -29,3 +29,5 @@ gradle-app.setting
 *.hprof
 
 # End of https://www.toptal.com/developers/gitignore/api/gradle
+/.gradle/
+/build/
